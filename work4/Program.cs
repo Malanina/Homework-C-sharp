@@ -1,4 +1,5 @@
-﻿Console.Clear();
+﻿
+Console.Clear();
 
 // // семинар 1. домашнее задание.
 
@@ -10,13 +11,15 @@ int N = Convert.ToInt32(Console.ReadLine());
 
 int i = 1;
 while (i <= N)
-
+{
     if (i % 2 == 0)
 
-      Console.Write(i + " ");
+        Console.Write(i + " ");
 
-     i++;
+    i++;
+}
 
 Console.WriteLine();
+
 
 
