@@ -17,13 +17,13 @@ Console.Clear();
 // Console.WriteLine(max);
 
 Console.WriteLine("Вводим первое число: ");
-int a = Convert.ToInt32(Console.ReadLine());
+int number1 = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Вводим второе число: ");
-int b = Convert.ToInt32(Console.ReadLine());
+int number2 = Convert.ToInt32(Console.ReadLine());
 
-int max = a;
+int max = number1;
 
-if (b > a) max = b;
+if (number1 > number2) max = number2;
 
 Console.WriteLine("max = ");
 Console.WriteLine(max);
