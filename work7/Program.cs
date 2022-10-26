@@ -8,11 +8,9 @@ Console.Write("Введите день недели в виде цифры от 
 int day = Convert.ToInt32(Console.ReadLine());
 if (day < 1 || day > 7)
     Console.Write("Нет такого дня в неделе");
-else
-if (day == 1 || day == 2 || day == 3 || day == 4 || day == 5)
+else if (day > 0 && day < 6) // (day == 1 || day == 2 || day == 3 || day == 4 || day == 5)
     Console.Write("Увы, это рабочий день(");
-else
-if (day == 6 || day == 7)
+else if (day == 6 || day == 7)
     Console.Write("Ура, это выходной день!");
 
 
